@@ -1,0 +1,33 @@
+/* Fondo de la sección de inicio */
+.inicio-section {
+  background: url('../img/fondo1.jpeg') center center/cover no-repeat;
+  height: 100vh;
+}
+
+/* Mejora general de textos */
+body {
+  font-family: 'Segoe UI', sans-serif;
+}
+
+/* Títulos */
+ h2 {
+  color: #003366;
+}
+
+/* Ajuste del footer */
+footer {
+  font-size: 0.9rem;
+}
+
+/* Altura fija del carrusel */
+#carouselQuienesSomos {
+  height: 300px;
+  overflow: hidden;
+}
+
+/* Las imágenes ocupan todo el alto del carrusel */
+#carouselQuienesSomos .carousel-item img {
+  object-fit: cover;
+  height: 100%;
+  width: 100%;
+}
